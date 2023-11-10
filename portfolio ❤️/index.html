@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- stylesheet link -->
+    <link rel="stylesheet" href="/style.css" />
+    <!-- google fonts link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+2&family=Lato:ital,wght@1,100&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,400;1,200&family=Tilt+Warp&family=Ubuntu:wght@300&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Shital karek - Developer Portfolio</title>
+    <script
+      src="https://kit.fontawesome.com/5bbe179049.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- header -->
+
+    <header>
+      <nav>
+        <div class="left">Shital's Portfolio</div>
+        <div class="right">
+          <ul>
+            <li><a href="#header">HOME</a></li>
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#services">SERVICES</a></li>
+            <li><a href="#projects">PROJECTS</a></li>
+            <li><a href="#contact">CONTACT ME</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <!-- main section of my website starts from here -->
+
+    <main>
+      <!-- 1st section -->
+
+      <section class="firstSection">
+        <div class="leftSection">
+          HII, My Name is <span class="purple">Shital Karek</span>
+
+          <div>and I am a</div>
+
+          <span id="element"></span>
+        </div>
+        <div class="rightSection">
+          <img src="/right-section.png.png" alt="">
+        </div>
+        
+      </section>
+      
+
+      <!-- 2nd section -->
+      <hr />
+      <section class="secondSection">
+        <span class="text-grey">What I know so far</span>
+        <h1>MY SKILLS Experience</h1>
+
+        <!-- my skills section starts  -->
+
+        <div class="skills-container">
+          <div class="progress" style="--i: 85; --clr: #43f94a">
+            <h3>85<span>%</span></h3>
+            <h4>HTML</h4>
+          </div>
+
+          <div class="progress" style="--i: 80; --clr: #2ccde9">
+            <h3>80<span>%</span></h3>
+            <h4>CSS</h4>
+          </div>
+
+          <div class="progress" style="--i: 85; --clr: #fb297b">
+            <h3>85<span>%</span></h3>
+            <h4>JAVA</h4>
+          </div>
+
+          <div class="progress" style="--i: 70; --clr: #ffe047">
+            <h3>70<span>%</span></h3>
+            <h4>JAVASCRIPT</h4>
+          </div>
+
+          <div class="progress" style="--i: 75; --clr: rgb(231, 18, 189)">
+            <h3>75<span>%</span></h3>
+            <h4>SQL</h4>
+          </div>
+          
+        </div>
+        
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <hr />
+
+        <!-- skills section ends -->
+      </section>
+
+      <!-- about section -->
+
+      <div id="about">
+        <div class="container">
+          <div class="row">
+            <div class="about_col_1">
+              <img src="/myPic.png.jpg" alt="my pic" />
+            </div>
+            <div class="about_col_2">
+              <h1 class="sub-title">About me</h1>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam
+                eum eveniet numquam atque animi obcaecati soluta dolore at
+                pariatur hic velit consectetur totam sed quis vero veniam
+                sapiente distinctio repellat magnam, dolorem quae nam?
+                Architecto facilis eos eligendi dolore maxime sit perspiciatis
+                quos vero laudantium facere! Adipisci fugiat pariatur aliquid.
+                
+              </p>
+              <a href="/Shital_Karek.pdf"  download class="btn">DOWNLOAD CV</a>
+
+              <br />
+              <br />
+              <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('skills')">
+                  Skills
+                </p>
+                <p class="tab-links" onclick="opentab('experience')">
+                  Experience
+                </p>
+                <p class="tab-links" onclick="opentab('education')">
+                  Education
+                </p>
+              </div>
+
+              <!-- skills -->
+
+              <div class="tab-contents active-tab" id="skills">
+                <ul>
+                  <li>
+                    <span>Web Development </span><br />Designing Web Interfaces
+                  </li>
+
+                  <li>
+                    <span>Java Programming</span><br />good knowledge in Java
+                    Language<
+                  </li>
+
+                  <li>
+                    <span>Sql </span><br />good knowledge in Database-queries
+                  </li>
+                </ul>
+              </div>
+
+              <!-- experience -->
+
+              <div class="tab-contents" id="experience">
+                <ul>
+                  <li>
+                    <span>2023 - current </span><br />Web Development training
+                    at UDEMY ONLINE COURSE
+                  </li>
+
+                  <li>
+                    <span>2023 - current</span><br />practising Java Programming
+                    on online platforms <br />
+                  </li>
+
+                  <li>
+                    <span>2023 - current</span><br />virtual Internship at OASIS
+                    INFOBYTE and INTERNPE
+                  </li>
+                </ul>
+              </div>
+
+              <!-- education -->
+
+              <div class="tab-contents" id="education">
+                <ul>
+                  <li>
+                    <span>2019 </span><br />10th pass out from NETAJI SUBHAS
+                    PUBLIC SCHOOL JAMSHEDPUR, JHARKHAND
+                  </li>
+
+                  <li>
+                    <span>2021</span><br />12th pass out from NETAJI SUBHAS
+                    PUBLIC SCHOOL JAMSHEDPUR, JHARKHAND
+                  </li>
+
+                  <li>
+                    <span>2025 </span><br />Btech Graduate from GITA AUTONOMOUS
+                    COLLEGE BHUBNESWAR, ODISHA
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+
+      <hr>
+
+      <!-- about section ends -->
+
+      <!-- services section -->
+
+      <div id="services">
+        <div class="container">
+          <h1 class="sub-title">My Services</h1>
+          <div class="services-list">
+            <div>
+              <i class="fa-solid fa-code"></i>
+              <h2>Web Development</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic
+                voluptate sed libero! Incidunt culpa consequuntur dolore, quae
+                velit, voluptate quo illo ducimus labore dolorum assumenda
+                fugit. Rerum natus quasi eligendi aut repellendus!
+              </p>
+              <a href="#">Learn more</a>
+            </div>
+            <div>
+              <i class="fa-brands fa-css3-alt"></i>
+              <h2>Web Design</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic
+                voluptate sed libero! Incidunt culpa consequuntur dolore, quae
+                velit, voluptate quo illo ducimus labore dolorum assumenda
+                fugit. Rerum natus quasi eligendi aut repellendus!
+              </p>
+              <a href="#">Learn more</a>
+            </div>
+            <div>
+              <i class="fa-brands fa-java"></i>
+              <h2>Java Development</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic
+                voluptate sed libero! Incidunt culpa consequuntur dolore, quae
+                velit, voluptate quo illo ducimus labore dolorum assumenda
+                fugit. Rerum natus quasi eligendi aut repellendus!
+              </p>
+              <a href="#">Learn more</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr />
+
+      <!-- services section ends  -->
+
+      <!-- projects section  -->
+
+      <div id="projects">
+        <div class="container">
+          <h1 class="sub-title">My WORKS</h1>
+          <div class="work-list">
+            <div class="work">
+              <img src="/java-project.png" alt="my work" />
+              <div class="layer">
+                <h3>Java Quiz Web Application</h3>
+                <p>
+                  Quiz Application with the help of Java Swing Quiz java GUI
+                  project
+                </p>
+                <a
+                  href="https://github.com/shitalkarek/java-quiz-web-application"
+                  ><i class="fa-solid fa-arrow-up-right-from-square"></i
+                ></a>
+              </div>
+            </div>
+            <div class="work">
+              <img src="/dice-game.png" alt="my work" />
+              <div class="layer">
+                <h3>Dice Game</h3>
+                <p>
+                  Dice Game made with the help of javascript DOM MANUPULATION.
+                  while refrshing the page it will refresh the players dice
+                  value and at top winner name.
+                </p>
+                <a href="https://shitalkarek.github.io/dice/"
+                  ><i class="fa-solid fa-arrow-up-right-from-square"></i
+                ></a>
+              </div>
+            </div>
+            <div class="work">
+              <img src="/drum-kit.png" alt="my work" />
+              <div class="layer">
+                <h3>Drum Kit</h3>
+                <p>
+                  Drum Kit madw with the help of javascript DOM MANUPULATION.
+                  while pressing up the mentioned key it will sound according
+                  the instruments shown.
+                </p>
+                <a href="https://shitalkarek.github.io/drumkit/"
+                  ><i class="fa-solid fa-arrow-up-right-from-square"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <a href="#" class="btn">See More</a>
+        </div>
+      </div>
+
+      <hr />
+
+      <!-- projects section ends  -->
+
+      <!-- contact-me section starts -->
+
+      <div id="contact">
+        <div class="container">
+          <div class="row">
+            <div class="contact-left">
+              <h1 class="sub-title">Contact Me</h1>
+              <p><i class="fa-solid fa-paper-plane"></i> <a href="mailto:shitalkarek@gmail.com"> click to EMAIL ME</a></p>
+              <p><i class="fa-solid fa-phone"></i> <a href="tel:8235523073">click to call me</a></p>
+              <div class="social-icons">
+                <a href="https://www.instagram.com/shital_karek_sk_/?hl=en"
+                  ><i class="fa-brands fa-instagram"></i
+                ></a>
+                <a href="https://www.linkedin.com/in/shital-karek-1a9789229/"><i class="fa-brands fa-linkedin"></i
+                ></a>
+                <a href="https://twitter.com/shitalkarek"
+                  ><i class="fa-brands fa-twitter"></i
+                ></a>
+                <a
+                  href="https://m.facebook.com/people/Shital-Karek/100019719911171/"
+                  ><i class="fa-brands fa-facebook"></i
+                ></a>
+                <a href="https://github.com/shitalkarek"
+                  ><i class="fa-brands fa-github"></i
+                ></a>
+              </div>
+                <!-- CV DOWNLOAD HERE  -->
+
+              <a href="/shital karek result 4sem.pdf"  download class="btn btn2">DOWNLOAD CV</a>
+            </div>
+            <div class="contact-right">
+              <form name=> 
+                <input type="text" name="Name" placeholder="your Name" required>
+                <input type="email" name="Email" placeholder="your Email" required>
+                <textarea name="Message"  rows="6" placeholder="your Message"></textarea>
+                <button type="button" class="btn btn2">Submit</button>
+              </form>
+            </div>
+            </div>
+
+            <hr>
+        </div>
+
+        <div class="copyright">
+          <p>Copyright <i class="fa-solid fa-copyright"> </i> Shital Karek. &nbspMade with ❤️</i></p>
+        </div>
+      </div>
+      
+
+      <!-- contact-me section ends -->
+
+      <!-- footer starts -->
+
+      <footer></footer>
+    </main>
+
+    
+    
+    
+    
+    
+    <!-- type js -  its a javascript typing animation library -->
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+
+      var tabcontents = document.getElementsByClassName("tab-contents");
+
+      //defining the function open tab
+
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#element", {
+        strings: ["web developer", "java programmer", "web designer"],
+        typeSpeed: 50,
+      });
+    </script>
+   
+    
+  </body>
+</html>
